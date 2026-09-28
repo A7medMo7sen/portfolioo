@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed Mohsen — Flutter Developer</title>
+<meta name="description" content="Ahmed Mohsen, Flutter developer based in Egypt, building responsive cross-platform mobile apps.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">AM<span class="logo-dot">.</span></a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#background">Background</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark and light theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z"/></svg>
+      </button>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <h1>Ahmed Mohsen</h1>
+      <p class="hero-role">Flutter Developer, based in Egypt</p>
+      <p class="hero-lede">I build responsive, cross-platform mobile apps with Flutter — turning designs and ideas into interfaces that actually work, and taking the time to understand the problems underneath them.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">See my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-links">
+        <a href="https://github.com/A7medMo7sen" target="_blank" rel="noopener">GitHub</a>
+        <span class="dot">·</span>
+        <a href="https://www.linkedin.com/in/a-mohsen-/" target="_blank" rel="noopener">LinkedIn</a>
+        <span class="dot">·</span>
+        <a href="mailto:ahmedmohsen.rslan@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="phone">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <div class="app-bar">
+            <span class="app-bar-dot"></span>
+            <span class="app-bar-title">weather_app.dart</span>
+          </div>
+          <div class="app-body">
+            <div class="glass-card">
+              <span class="temp">24.6°</span>
+              <span class="cond">Partly cloudy</span>
+            </div>
+            <div class="chip-row">
+              <span class="chip">setState</span>
+              <span class="chip">Provider</span>
+              <span class="chip">BLoC</span>
+            </div>
+            <div class="mini-card"></div>
+            <div class="mini-card"></div>
+          </div>
+        </div>
+      </div>
+      <div class="code-float">
+        <span class="c-key">class</span> <span class="c-type">WeatherScreen</span> <span class="c-key">extends</span> <span class="c-type">StatefulWidget</span> {
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section wrap">
+    <h2 class="section-title">About</h2>
+    <div class="about-grid reveal">
+      <p class="about-lead">I'm a Flutter developer focused on building modern, responsive, user-friendly mobile applications. I enjoy turning ideas and designs into functional apps, and solving the technical problems that come up along the way.</p>
+      <div class="about-details">
+        <p>I'm still growing my professional experience, but I care about understanding the code I write — not just making something work — and I keep improving the quality of what I ship.</p>
+        <p>Right now I'm deepening my knowledge of Dart and Flutter: Firebase, REST APIs, asynchronous programming, app architecture, and how the different parts of a mobile app fit together beyond just the UI layer.</p>
+        <div class="about-focus">
+          <div class="focus-item">
+            <span class="focus-label">Looking for</span>
+            <span>Freelance Flutter projects — from UI builds to feature work on existing apps</span>
+          </div>
+          <div class="focus-item">
+            <span class="focus-label">Long-term goal</span>
+            <span>Take a product from idea to production-ready, end to end</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section wrap">
+    <h2 class="section-title">Technical skills</h2>
+    <div class="skills-grid reveal">
+      <div class="skill-group">
+        <h3>Language</h3>
+        <div class="chip-list"><span class="chip">Dart</span></div>
+      </div>
+      <div class="skill-group">
+        <h3>Flutter &amp; UI</h3>
+        <div class="chip-list">
+          <span class="chip">Flutter (Material &amp; Cupertino)</span>
+          <span class="chip">Responsive layouts</span>
+          <span class="chip">Custom widgets</span>
+          <span class="chip">Animations</span>
+          <span class="chip">Glassmorphism / blur</span>
+          <span class="chip">Forms &amp; navigation</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>State management</h3>
+        <div class="chip-list">
+          <span class="chip">setState</span>
+          <span class="chip">Provider</span>
+          <span class="chip">BLoC</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Data &amp; backend</h3>
+        <div class="chip-list">
+          <span class="chip">Firebase Firestore</span>
+          <span class="chip">Firebase Auth</span>
+          <span class="chip">SQLite</span>
+          <span class="chip">SharedPreferences</span>
+          <span class="chip">REST APIs</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Tools</h3>
+        <div class="chip-list">
+          <span class="chip">Git &amp; GitHub</span>
+          <span class="chip">VS Code</span>
+          <span class="chip">Android Studio</span>
+        </div>
+      </div>
+    </div>
+    <p class="skills-note reveal">My strongest habit isn't a technology — it's research: when something breaks, I dig until I understand why, instead of copying the first fix I find.</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="work" class="section wrap">
+    <h2 class="section-title">Featured projects</h2>
+
+    <article class="project reveal">
+      <div class="project-info">
+        <span class="project-kind">Personal project</span>
+        <h3>Weather App</h3>
+        <p>A practice project that pulls live forecast data from the OpenWeatherMap API and presents it through a frosted-glass current-conditions card, an hourly forecast strip, and quick readouts for humidity, wind, and pressure. Theme choice (dark/light) is saved locally so it's remembered between sessions.</p>
+        <ul class="project-features">
+          <li>Live weather data via REST calls to OpenWeatherMap</li>
+          <li>Frosted-glass ("glassmorphism") current-conditions card</li>
+          <li>Scrollable hourly forecast strip</li>
+          <li>Dark/light theme toggle, persisted with <code>shared_preferences</code></li>
+        </ul>
+        <p class="project-challenge"><strong>Hardest part:</strong> getting the theme-persistence logic to reliably save and reload the chosen theme.</p>
+        <div class="chip-list">
+          <span class="chip">Flutter</span><span class="chip">Dart</span><span class="chip">HTTP</span><span class="chip">OpenWeatherMap API</span><span class="chip">shared_preferences</span>
+        </div>
+        <a class="project-link" href="https://github.com/A7medMo7sen/weather-app" target="_blank" rel="noopener">View code on GitHub →</a>
+      </div>
+      <div class="project-media media-single"><figure class="device "><img src="images/weather-home.jpg" width="540" height="1155" alt="Weather App screenshot showing the current conditions card, hourly forecast strip, and humidity, wind speed and pressure readouts in dark theme"></figure></div>
+    </article>
+
+    <article class="project reveal project-reverse">
+      <div class="project-info">
+        <span class="project-kind">Academic project</span>
+        <h3>Cafe Interactive Media Hub</h3>
+        <p>An academic Flutter project built to practice gesture handling, sharing, and animation through a small cafe-ordering concept. Three tabs cover a simulated live menu, an interactive image viewer, and a category explorer — each aimed at a different mobile interaction pattern.</p>
+        <ul class="project-features">
+          <li><strong>Orders</strong> — a simulated live menu with add-to-tray interactions</li>
+          <li><strong>View</strong> — pinch-to-zoom, pan, and double-tap image viewer with a live scale/offset readout</li>
+          <li><strong>Explore</strong> — a category grid that shares item details through the device's native share sheet</li>
+        </ul>
+        <p class="project-challenge"><strong>Hardest part:</strong> the gesture math behind the image viewer — getting scale, offset, and clamping to feel natural.</p>
+        <div class="chip-list">
+          <span class="chip">Flutter</span><span class="chip">Dart</span><span class="chip">Gesture detection</span><span class="chip">share_plus</span>
+        </div>
+        <a class="project-link" href="https://github.com/A7medMo7sen/cafe_interactive_media_hub" target="_blank" rel="noopener">View code on GitHub →</a>
+      </div>
+      <div class="project-media media-trio"><figure class="device d1"><img src="images/cafe-orders.jpg" width="540" height="1155" alt="Cafe Interactive Media Hub Orders tab showing the menu items list with prices and add buttons"></figure><figure class="device d2"><img src="images/cafe-explore.jpg" width="540" height="1155" alt="Cafe Interactive Media Hub Explore tab showing the Category Explorer grid"></figure><figure class="device d3"><img src="images/cafe-details.jpg" width="540" height="1155" alt="Cafe Interactive Media Hub item details screen with a Share button and Back to Explorer button"></figure></div>
+    </article>
+
+    <article class="project reveal">
+      <div class="project-info">
+        <span class="project-kind">Personal project</span>
+        <h3>Cipher App</h3>
+        <p>A cipher/encoding app that translates Arabic and English text into a custom hieroglyphic-style symbol set and back again — two non-overlapping maps covering 61 unique symbols in total, with a custom dark, monospace-styled interface. All cipher logic is plain Dart, with no external dependencies.</p>
+        <ul class="project-features">
+          <li>Encodes and decodes both Arabic and English text</li>
+          <li>Two non-overlapping cipher maps, 61 unique symbols</li>
+          <li>Custom dark purple/cyan, monospace-inspired UI</li>
+          <li>No external packages — all logic built with plain Dart <code>Map</code> objects</li>
+        </ul>
+        <p class="project-challenge"><strong>Hardest part:</strong> refactoring from an English-only build to properly support Arabic text, while learning new widgets along the way.</p>
+        <div class="chip-list">
+          <span class="chip">Flutter</span><span class="chip">Dart</span>
+        </div>
+        <a class="project-link" href="https://github.com/A7medMo7sen/chiperX" target="_blank" rel="noopener">View code on GitHub →</a>
+      </div>
+      <div class="project-media media-duo"><figure class="device d1"><img src="images/cipher-encode.jpg" width="540" height="1155" alt="ChiperX app in encode mode converting the plain text hello into runic cipher text"></figure><figure class="device d2"><img src="images/cipher-decode.jpg" width="540" height="1155" alt="ChiperX app in decode mode converting runic cipher text back into the plain text HELLO"></figure></div>
+    </article>
+  </section>
+
+  <!-- EDUCATION & EXPERIENCE -->
+  <section id="background" class="section wrap">
+    <h2 class="section-title">Background</h2>
+    <div class="background-grid reveal">
+      <div class="background-item">
+        <span class="background-label">Education</span>
+        <h3>B.Sc. Computer Science</h3>
+        <p>Nahda University · Expected graduation 2027 · GPA: Very Good</p>
+      </div>
+      <div class="background-item">
+        <span class="background-label">Currently learning</span>
+        <h3>DEPI — Cross-Platform Flutter App Development</h3>
+        <p>An ongoing training track focused on cross-platform mobile development with Flutter.</p>
+      </div>
+      <div class="background-item">
+        <span class="background-label">Applied experience</span>
+        <h3>Cafe Interactive Media Hub</h3>
+        <p>Academic project applying gesture handling, sharing, and animation techniques in a real Flutter build.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section wrap">
+    <h2 class="section-title">Services</h2>
+    <p class="section-lede">I take on freelance Flutter work for individuals, startups, and businesses — from full builds to targeted feature work on apps that already exist.</p>
+    <div class="services-grid reveal">
+      <div class="service-card"><h3>Mobile app development</h3><p>Cross-platform Flutter apps for Android and iOS.</p></div>
+      <div class="service-card"><h3>UI implementation</h3><p>Turning designs and mockups into accurate, functional Flutter interfaces.</p></div>
+      <div class="service-card"><h3>Firebase integration</h3><p>Auth, Firestore, and backend services wired into your app.</p></div>
+      <div class="service-card"><h3>REST API integration</h3><p>Connecting apps to external APIs — requests, parsing, error handling.</p></div>
+      <div class="service-card"><h3>Feature additions</h3><p>Adding new functionality to an existing Flutter codebase.</p></div>
+      <div class="service-card"><h3>Bug fixing &amp; improvements</h3><p>Diagnosing and resolving issues in apps already in progress.</p></div>
+    </div>
+    <p class="services-pricing">Pricing: fixed price or hourly, depending on the project.</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section wrap contact-section">
+    <h2 class="section-title">Let's work together</h2>
+    <p class="section-lede">Available for freelance Flutter projects. Reach out and let's talk about what you're building.</p>
+    <div class="contact-grid reveal">
+      <a class="contact-card" href="mailto:ahmedmohsen.rslan@gmail.com">
+        <span class="contact-label">Email</span>
+        <span>ahmedmohsen.rslan@gmail.com</span>
+      </a>
+      <a class="contact-card" href="tel:+201097375778">
+        <span class="contact-label">Phone</span>
+        <span>+20 109 737 5778</span>
+      </a>
+      <a class="contact-card" href="https://github.com/A7medMo7sen" target="_blank" rel="noopener">
+        <span class="contact-label">GitHub</span>
+        <span>A7medMo7sen</span>
+      </a>
+      <a class="contact-card" href="https://www.linkedin.com/in/a-mohsen-/" target="_blank" rel="noopener">
+        <span class="contact-label">LinkedIn</span>
+        <span>a-mohsen-</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>Ahmed Mohsen — Flutter Developer, Egypt</span>
+    <span class="footer-year"></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
